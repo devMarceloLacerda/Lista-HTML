@@ -1,17 +1,20 @@
 
+// Exercicio 1
 function triangulo(form) {
     var n1 = form.n1.value;
     var n2 = form.n2.value;
     var n3 = form.n3.value;
     if (n1==n2 && n2==n3)
-          alert ("O Trinagulo é Equilatero");
+          alert ("O Triangulo é Equilatero");
         else
           if (n1==n2 || n2==n3 || n3==n1)
-            alert ("O Trinagulo é Isosceles");
+            alert ("O Triangulo é Isosceles");
           else
-            alert ("O Trinagulo é Escaleno");
+            alert ("O Triangulo é Escaleno");
 }
 
+
+// Exercicio 2
 function idade(form) 
 {
     var d = new Date,
@@ -24,6 +27,20 @@ function idade(form)
     alert(quantos_anos);
 }
 
+//Exercicio 3
+function vendas(form)
+{
+						var val1=form.val1.value;
+						if (val1>=500 && val1<700)
+							alert("Desconto: 15%")
+						else if (val1>700)
+							alert("Desconto: 20%")
+						else
+							alert("Desconto: 5%");
+				} 
+
+				
+// Exercicio 4
 function calcnotas(form)
 {
 						var nota1=form.n1.value;
@@ -40,15 +57,5 @@ function calcnotas(form)
 
 
 
-function vendas(form)
-{
-						var val1=form.val1.value;
-						if (val1>=500 && val1<700)
-							alert("Desconto: 15%")
-						else if (val1>700)
-							alert("Desconto: 20%")
-						else
-							alert("Desconto: 5%");
-				}
-
 				
+// @MarceloHilario 

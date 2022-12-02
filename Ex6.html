@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Exercicio 06</title>
+    </head>
+    <body>
+        <script> lang="Javascript" 
+            let maior = 0;
+            let menor = 0;
+            while(true){
+                let entrada = prompt();
+                if(entrada=="0"){
+                    break;
+                }
+                entrada = parseFloat(entrada);
+                if(entrada>=18){
+                    maior++;
+                }else{
+                    menor++;
+                }
+            }
+            
+            alert(`${maior} maiores e ${menor} menores de 18 anos`);
+        </script>        
+    </body>
+</html>

@@ -41,19 +41,21 @@ function vendas(form)
 
 				
 // Exercicio 4
-function calcnotas(form)
-{
-						var nota1=form.n1.value;
-						var nota2=form.n2.value;
-						var nota3=form.n3.value;
-						var faltas=form.faltas.value;
-						var media=nota1+nota2+nota3;
-						var result= media / 3;
-						if (result>=7 && faltas<10)
-							alert("Aprovado")
-						else
-							alert("Reprovado")
-				}
+function calcnotas(){
+
+	var nota1 = parseFloat(document.getElementById("n1").value);
+	var nota2 = parseFloat(document.getElementById("n2").value);
+	var nota3 = parseFloat(document.getElementById("n3").value);
+	var media = (nota1 + nota2+ nota3) /3;
+	var faltas = parseFloat(document.getElementById("faltas").value);
+	
+	if(media >= 7 && faltas < 10)
+	  alert("Uau! Aprovado!! sua media foi: "+media);
+	
+	else
+	 alert("Reprovado!")
+	
+	}
 
 
 // Exercicio 5

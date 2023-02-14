@@ -4,6 +4,6 @@ Autor: Marcelo Lacerda
 
 Redes Sociais: 
 
-GITHUB: https://github.com/MarceloHilario
+GITHUB: https://github.com/devMarceloLacerda
 
 INSTAGRAM: https://instagram.com/marcelohilariolacerda
